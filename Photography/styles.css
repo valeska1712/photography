@@ -1,0 +1,17 @@
+/* Styles for photographer's portfolio */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+}
+
+.thumbnail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
